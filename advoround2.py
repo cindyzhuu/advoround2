@@ -42,7 +42,7 @@ def get_keywords(text, num_words=3):
 
 # calls openai API to generate haiku based on the keywords
 def generate_haiku(prompt):
-    openai.api_key = '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'  
+    openai.api_key = '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'  
 
     response = openai.Completion.create(
       engine="text-davinci-002",  # You can choose other engines too
